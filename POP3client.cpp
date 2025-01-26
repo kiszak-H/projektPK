@@ -2,6 +2,8 @@
 #include <QTextStream>
 #include <QDebug>
 
+#include <iostream>
+
 Pop3Client::Pop3Client(QObject* parent)
     : EmailClient(parent)
 {

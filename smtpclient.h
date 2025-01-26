@@ -18,6 +18,8 @@ public:
 
 private slots:
     void onReadyRead();
+    void onError();
+    //void onEncrypted();
 
 private:
     QString lastResponse;

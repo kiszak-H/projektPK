@@ -3,7 +3,7 @@
 #define EMAILCLIENT_H
 
 #include <QObject>
-#include <QTcpSocket>
+#include <QSslSocket>
 #include <QString>
 
 class EmailClient : public QObject
@@ -18,7 +18,7 @@ public:
     virtual void disconnectFromServer() = 0;
 
 protected:
-    QTcpSocket* socket;
+    QSslSocket* socket;
 };
 
 #endif // EMAILCLIENT_H
