@@ -867,3 +867,8 @@ QT = core
         
         QT += core gui network charts
 QT += widgets
+CONFIG += no_fixpath
+QT = core
+        
+        QT += core gui network charts
+QT += widgets
